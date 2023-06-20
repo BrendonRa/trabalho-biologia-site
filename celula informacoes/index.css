@@ -1,0 +1,48 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0px;
+}
+
+#size-page {
+    height: 100vh;
+}
+
+#size-page2 {
+    height: 96vh;
+}
+
+.centro {
+    background: #191950;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*
+    resize: both;
+    overflow: auto;
+    */
+}
+
+.image {
+    width: 400px;
+    height: 290px;
+}
+
+#partes-cel {
+    height: 4vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#partes-cel > input {
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+input {
+    border: solid 1px black;
+    border-radius: 2px;
+    background-color: rgb(185, 218, 247);
+}
